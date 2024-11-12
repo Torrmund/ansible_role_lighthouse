@@ -1,6 +1,4 @@
 ---
-- import_role: simple_nginx
-
 - name: Install dependencies for itself
   apt:
     name:
