@@ -1,0 +1,4 @@
+---
+- src: https://github.com/Torrmund/ansible_role_nginx.git
+  version: v0.1.0
+  name: simple_nginx

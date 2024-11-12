@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: lighthouse_install
+  author: Aleksandr Emelyanov
+  description: Install Lighthouse(over Nginx) for Clickhouse
+  company: none
+  license: MIT
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+  galaxy_tags: []
+dependencies:
+  - src: https://github.com/Torrmund/ansible_role_nginx.git
+    version: v0.1.0
+    name: simple_nginx
